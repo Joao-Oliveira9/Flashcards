@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SorteioController">
+   <children>
+      <Label fx:id="perguntaLabel" layoutX="53.0" layoutY="102.0" prefHeight="36.0" prefWidth="516.0" text="Pergunta:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="respostaLabel" layoutX="53.0" layoutY="229.0" prefHeight="36.0" prefWidth="490.0" text="Resposta:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="285.0" layoutY="321.0" mnemonicParsing="false" onAction="#voltarMenu" text="Button" />
+   </children>
+</AnchorPane>
